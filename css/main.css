@@ -1,6 +1,13 @@
 /*___________________________________
-		GENERAL
+    GENERAL
 ____________________________________*/
+{
+    list-style-type: none;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
 
 .floatleft{
   float:left;
@@ -16,14 +23,6 @@ ____________________________________*/
 
 ul
 
-{
-    list-style-type: none;
-}
-
-body {
-  font-family: 'Oswald', sans-serif;
-}
-
 #wrapper {
   max-width: 940px;
   margin: 0 auto;
@@ -37,10 +36,8 @@ a {
 img {
   max-width: 100%;
 }
-
-
 /*___________________________________
-		HEADING
+    HEADING
 ____________________________________*/
 
 
@@ -66,7 +63,7 @@ h2 {
 
 
 /*___________________________________
-		NAVIGATION
+    NAVIGATION
 ____________________________________*/
 
 
@@ -79,7 +76,7 @@ nav {
 
 
 /*___________________________________
-		FOOTER
+    FOOTER
 ____________________________________*/
 
 
@@ -92,21 +89,21 @@ footer {
 }
 
 /*___________________________________
-		PAGE PORTFOLIO
+    PAGE PORTFOLIO
 ____________________________________*/
 #gallery {
-	margin: 0;
-	padding: 0;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
 #gallery li {
-	float: left;
-	width: 45%;
-	margin: 2.5%;
-	background-color: #f5f5f5;
-	color: #bdc3c7;
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #f5f5f5;
+  color: #bdc3c7;
 }
 
 #gallery li a p{
@@ -117,7 +114,7 @@ ____________________________________*/
 }
 
 /*___________________________________
-			SITE BODY
+      SITE BODY
 ____________________________________*/
 
 body {
@@ -126,7 +123,7 @@ body {
 }
 
 /*___________________________________
-		GREEN HEADER
+    GREEN HEADER
 ____________________________________*/
 
 header {
@@ -135,7 +132,7 @@ header {
 }
 
 /*___________________________________
-	NAV BACKGROUND ON MOBILE
+  NAV BACKGROUND ON MOBILE
 ____________________________________*/
 
 nav {
@@ -143,7 +140,7 @@ nav {
 }
 
 /*___________________________________
-		LOGO TEXT
+    LOGO TEXT
 ____________________________________*/
 
 h1, h2 {
@@ -151,7 +148,7 @@ h1, h2 {
 }
 
 /*___________________________________
-		LINKS
+    LINKS
 ____________________________________*/
 
 a {
@@ -159,7 +156,7 @@ a {
 }
 
 /*___________________________________
-		NAV LINK
+    NAV LINK
 ____________________________________*/
 
 nav a, nav a:visited {
@@ -167,7 +164,7 @@ nav a, nav a:visited {
 }
 
 /*___________________________________
-		SELECTED NAV LINK
+    SELECTED NAV LINK
 ____________________________________*/
 nav a.selected, nav a:hover {
   color: #32673f;
