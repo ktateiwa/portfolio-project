@@ -1,6 +1,11 @@
 /*___________________________________
     GENERAL
 ____________________________________*/
+p {
+    text-indent: 50px;
+    padding-left: 2cm;
+}
+
 {
     list-style-type: none;
 }
